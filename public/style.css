@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 5vw;
+}
+
+#searchHolder {
+    display: flex;
+}
+
+#searchBox {
+    margin-top: 4px;
+    height: 20px;
+}
+
+#holder {
+    border: black;
+    border: solid;
+    border-bottom: none;
+    height: 8vh;
+    width: 80vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameHolder {
+    border: black;
+    border: solid;
+    height: 83vh;
+    width: 80vw;
+    overflow: scroll;
+}
+
+.gameDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoDiv {
+    text-align: center;
+    width: 10vw;
+    margin: 3px;
+}
+
+.nameDiv {
+    width: 30vw;
+}
+
+#buttonHolder {
+    border: black;
+    border: solid;
+    border-top: none;
+    height: 5vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    margin: 5px;
+    border: black;
+    border: solid;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputSubmit {
+    margin: -1px;
+    margin-right: 5px;
+    border: black;
+    border: solid;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: grey;
+    transition: 200ms;
+}

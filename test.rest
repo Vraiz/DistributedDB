@@ -1,0 +1,22 @@
+###
+GET http://ccscloud.dlsu.edu.ph:21650/games/:0
+
+###
+GET http://localhost:8080/count
+
+###
+GET http://localhost:8080/game/3199584
+
+
+###
+PATCH http://localhost:8080/games/3199595
+Content-Type: application/json
+
+{
+    "name": "bread"
+}
+###
+DELETE http://localhost:8080/games/:3199583
+
+###
+GET http://localhost:8080/concurrency/:4
